@@ -34,5 +34,15 @@ print('thisset_added_list -- lenght=> ' , len(thisset)  ,' \n type=>' , type(thi
 
 # Remove Item
 # To remove an item in a set, use the remove(), or the discard() method.
+# Note: If the item to remove does not exist, remove() will raise an error.
 thisset.remove('kiwi')
+
+# Note: If the item to remove does not exist, discard() will NOT raise an error.
+thisset.discard('anything')
 print('thisset_remove_item -- lenght=> ' , len(thisset)  ,' \n type=>' , type(thisset)  ,'\n data =>' , thisset , '\n')
+
+# The clear() method empties the set:
+thisset.clear()
+print('thisset_clear_all_set -- lenght=> ' , len(thisset)  ,' \n type=>' , type(thisset)  ,'\n data =>' , thisset , '\n')
+
+
