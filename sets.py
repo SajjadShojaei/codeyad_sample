@@ -71,3 +71,7 @@ print('intersection_update_item_duplicated -- lenght=> ' , len(x)  ,' \n type=>'
 z = x.intersection(y)
 print('intersection_item_duplicated -- lenght=> ' , len(z)  ,' \n type=>' , type(z)  ,'\n data =>' , z , '\n')
 
+# Keep All, But NOT the Duplicates
+# The symmetric_difference_update() method will keep only the elements that are NOT present in both sets.
+x.symmetric_difference_update(y)
+print('symmetric_difference_update -- lenght=> ' , len(x)  ,' \n type=>' , type(x)  ,'\n data =>' , x , '\n')
