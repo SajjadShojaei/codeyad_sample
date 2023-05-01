@@ -31,3 +31,8 @@ print('thisset_added_sets -- lenght=> ' , len(thisset)  ,' \n type=>' , type(thi
 mylist = ["kiwi", "orange"]
 thisset.update(mylist)
 print('thisset_added_list -- lenght=> ' , len(thisset)  ,' \n type=>' , type(thisset)  ,'\n data =>' , thisset , '\n')
+
+# Remove Item
+# To remove an item in a set, use the remove(), or the discard() method.
+thisset.remove('kiwi')
+print('thisset_remove_item -- lenght=> ' , len(thisset)  ,' \n type=>' , type(thisset)  ,'\n data =>' , thisset , '\n')
