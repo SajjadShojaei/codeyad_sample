@@ -65,5 +65,9 @@ x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 
 x.intersection_update(y)
-print('intersection_item_duplicated -- lenght=> ' , len(x)  ,' \n type=>' , type(x)  ,'\n data =>' , x , '\n')
+print('intersection_update_item_duplicated -- lenght=> ' , len(x)  ,' \n type=>' , type(x)  ,'\n data =>' , x , '\n')
+
+# The intersection() method will return a new set, that only contains the items that are present in both sets.
+z = x.intersection(y)
+print('intersection_item_duplicated -- lenght=> ' , len(z)  ,' \n type=>' , type(z)  ,'\n data =>' , z , '\n')
 
