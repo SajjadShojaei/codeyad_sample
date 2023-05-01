@@ -25,4 +25,9 @@ tropical = {"pineapple", "mango", "papaya"}
 thisset.update(tropical)
 print('thisset_added_sets -- lenght=> ' , len(thisset)  ,' \n type=>' , type(thisset)  ,'\n data =>' , thisset , '\n')
 
+# Add Any Iterable
+# The object in the update() method does not have to be a set, it can be any iterable object (tuples, lists, dictionaries etc.).
 
+mylist = ["kiwi", "orange"]
+thisset.update(mylist)
+print('thisset_added_list -- lenght=> ' , len(thisset)  ,' \n type=>' , type(thisset)  ,'\n data =>' , thisset , '\n')
