@@ -16,3 +16,20 @@ print('dictionary -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =
 myAge = me['age']
 print('myAge -- lenght=> ' ,' \n type=>' , type(myAge)  ,'\n data =>' , myAge , '\n')
 
+# There is also a method called get() that will give you the same result:
+
+myName = me.get('name')
+print('myName -- lenght=> ' , len(myName)  ,' \n type=>' , type(myName)  ,'\n data =>' , myName , '\n')
+
+# Get Keys
+# The keys() method will return a list of all the keys in the dictionary.
+
+getKeys = me.keys()
+print('getKeys -- lenght=> ' , len(getKeys)  ,' \n type=>' , type(getKeys)  ,'\n data =>' , getKeys , '\n')
+
+# Get Values
+# The values() method will return a list of all the values in the dictionary.
+
+getValues = me.values()
+print('getValues -- lenght=> ' , len(getValues)  ,' \n type=>' , type(getValues)  ,'\n data =>' , getValues , '\n')
+
