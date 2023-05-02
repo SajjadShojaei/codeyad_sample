@@ -43,4 +43,11 @@ print('getItems -- lenght=> ' , len(getItems)  ,' \n type=>' , type(getItems)  ,
 # To determine if a specified key is present in a dictionary use the in keyword:
 
 if 'relsID' in me:
-    print('Yes, "relsID" is one of the keys in the me dictionary')
+    print('Yes, "relsID" is one of the keys in the me dictionary \n')
+
+# Change Values
+# You can change the value of a specific item by referring to its key name:
+
+me['isAdmin'] = False
+print('changed_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
+   
