@@ -50,4 +50,9 @@ if 'relsID' in me:
 
 me['isAdmin'] = False
 print('changed_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
-   
+
+# Update Dictionary
+# The update() method will update the dictionary with the items from the given argument.
+# The argument must be a dictionary, or an iterable object with key:value pairs.  
+me.update({'phoneNumber': '09332827748'})
+print('updated_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
