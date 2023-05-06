@@ -56,3 +56,8 @@ print('changed_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data
 # The argument must be a dictionary, or an iterable object with key:value pairs.  
 me.update({'phoneNumber': '09332827748'})
 print('updated_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
+
+# Removing Items
+# The pop() method removes the item with the specified key name:
+me.pop('isAdmin')
+print('removed_item_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
