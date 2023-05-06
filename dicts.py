@@ -54,22 +54,37 @@ print('changed_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data
 # Update Dictionary
 # The update() method will update the dictionary with the items from the given argument.
 # The argument must be a dictionary, or an iterable object with key:value pairs.  
+
 me.update({'phoneNumber': '09332827748'})
 print('updated_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
 
 # Removing Items
 # The pop() method removes the item with the specified key name:
+
 me.pop('isAdmin')
 print('removed_item_pop_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
 
 # The popitem() method removes the last inserted item:
+
 me.popitem()
 print('removed_item_popitem_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
 
 # The del keyword removes the item with the specified key name:
-del me['isAdmin']
+
+# del me['isAdmin']
 print('removed_item_ del_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
 
 # The clear() method empties the dictionary:
-me.clear()
+
+# me.clear()
 print('removed_item_clear_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
+
+
+# Copy a Dictionary
+# You cannot copy a dictionary simply by typing dict2 = dict1, because: dict2 will only be a reference to dict1, and changes made in dict1 will automatically also be made in dict2.
+# There are ways to make a copy, one way is to use the built-in Dictionary method copy().
+
+copiedDict = me.copy()
+copiedDict['colorEyes'] = 'brown'
+print('copied_dict -- lenght=> ' , len(copiedDict)  ,' \n type=>' , type(copiedDict)  ,'\n data =>' , copiedDict , '\n')
+
