@@ -88,3 +88,22 @@ copiedDict = me.copy()
 copiedDict['colorEyes'] = 'brown'
 print('copied_dict -- lenght=> ' , len(copiedDict)  ,' \n type=>' , type(copiedDict)  ,'\n data =>' , copiedDict , '\n')
 
+# Nested Dictionaries
+# A dictionary can contain dictionaries, this is called nested dictionaries.
+
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+print('nested_dict -- lenght=> ' , len(copiedDict)  ,' \n type=>' , type(copiedDict)  ,'\n data =>' , myfamily["child2"]["name"] , '\n')
