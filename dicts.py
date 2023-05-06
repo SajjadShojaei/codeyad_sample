@@ -60,4 +60,16 @@ print('updated_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data
 # Removing Items
 # The pop() method removes the item with the specified key name:
 me.pop('isAdmin')
-print('removed_item_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
+print('removed_item_pop_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
+
+# The popitem() method removes the last inserted item:
+me.popitem()
+print('removed_item_popitem_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
+
+# The del keyword removes the item with the specified key name:
+del me['isAdmin']
+print('removed_item_ del_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
+
+# The clear() method empties the dictionary:
+me.clear()
+print('removed_item_clear_dict -- lenght=> ' , len(me)  ,' \n type=>' , type(me)  ,'\n data =>' , me , '\n')
