@@ -39,6 +39,9 @@ else:
   print("a is greater than b")  
 
 # Short Hand If
+if a > b: print("a is greater than b")  
 
-if a > b: 
- print("a is greater than b")  
+# Short Hand If ... Else
+a = 2
+b = 330
+print("A") if a > b else print("B")
