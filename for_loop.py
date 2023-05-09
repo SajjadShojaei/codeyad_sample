@@ -44,3 +44,12 @@ for number in range(6):  # Note that range(6) is not the values of 0 to 6, but t
 
 for x in range(2, 30, 3):
   print('->',x)
+
+# Else in For Loop
+# The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+
+friends = ['sajjad' , 'amir' , 'farid' , 'mohammad' , 'ali']
+for name in friends:
+    print('hello ',name)
+else:
+    print('oh, finished!')    
