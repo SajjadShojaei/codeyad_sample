@@ -52,4 +52,14 @@ friends = ['sajjad' , 'amir' , 'farid' , 'mohammad' , 'ali']
 for name in friends:
     print('hello ',name)
 else:
-    print('oh, finished!')    
+    print('oh, finished!')
+
+# Nested Loops
+# A nested loop is a loop inside a loop.        
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
