@@ -12,3 +12,12 @@ for x in fruits:
 
 for s in "Sajjad":
   print(s)
+
+# The break Statement
+# With the break statement we can stop the loop before it has looped through all the items:
+
+friends = ['sajjad' , 'amir' , 'farid' , 'mohammad' , 'ali']
+for items in friends:
+    if items == 'mohammad':
+        break
+    print(items)
