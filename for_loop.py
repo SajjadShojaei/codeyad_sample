@@ -29,4 +29,11 @@ books = ["book1", "book2", "book3"]
 for book in books:
   if book == "book2":
     continue
-  print(book)   
+  print(book)
+
+# The range() Function
+# To loop through a set of code a specified number of times, we can use the range() function,
+# The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.  
+
+for number in range(6):  # Note that range(6) is not the values of 0 to 6, but the values 0 to 5.
+    print(number)
