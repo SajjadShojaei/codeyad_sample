@@ -21,3 +21,12 @@ for items in friends:
     if items == 'mohammad':
         break
     print(items)
+
+# The continue Statement
+# With the continue statement we can stop the current iteration of the loop, and continue with the next: 
+
+books = ["book1", "book2", "book3"]
+for book in books:
+  if book == "book2":
+    continue
+  print(book)   
