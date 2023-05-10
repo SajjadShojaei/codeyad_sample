@@ -12,6 +12,7 @@ print(b)
 
 name = input("enter you full name: ")
 name = name.lower()
+name = name.replace(" " , "")
 
 b = []
 
