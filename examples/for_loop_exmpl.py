@@ -4,4 +4,6 @@ b = []
 
 for name in names:
     if name[-1] == 'i':
-        print(name)
+        b.append(name)
+
+print(b)
