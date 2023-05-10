@@ -10,6 +10,18 @@ for name in names:
 
 print(b)
 
+name = input("enter you full name: ")
+name = name.lower()
+
+b = []
+
+for n in name:
+    if n not in b:
+        print(f"your name has {name.count(n)} {n}")
+        b.append(n)
+      
+
+
 # for name in names:
 #     if name[-1] == 'i':
 #         b.append(name)
