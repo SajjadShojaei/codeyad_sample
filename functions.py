@@ -51,4 +51,15 @@ def getUser(first_name , last_name , *args , **kwargs):
     print(args)
     print(kwargs)
 
-getUser('Sajjad' , 'Shojaei' , 'engineer' , 'artist' , 'player' , age=26 , isAdmin=True)    
+getUser('Sajjad' , 'Shojaei' , 'engineer' , 'artist' , 'player' , age=26 , isAdmin=True) 
+
+# Default Parameter Value
+# The following example shows how to use a default parameter value.
+
+def my_function(country = "Iran"):
+  print("I am from " + country)
+
+my_function("Sweden") # I am from Sweden
+my_function("India")  # I am from India
+my_function()         # I am from Iran
+my_function("Brazil") # I am from Brazil
