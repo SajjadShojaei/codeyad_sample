@@ -63,3 +63,15 @@ my_function("Sweden") # I am from Sweden
 my_function("India")  # I am from India
 my_function()         # I am from Iran
 my_function("Brazil") # I am from Brazil
+
+# Passing a List as an Argument
+# You can send any data types of argument to a function (string, number, list, dictionary etc.),
+# and it will be treated as the same data type inside the function.
+
+def food_menu(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+food_menu(fruits)
