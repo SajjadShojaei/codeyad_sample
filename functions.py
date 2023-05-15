@@ -41,3 +41,14 @@ def keyArgs(value1 , value2 , *args , **kwargs):
     print(kwargs)
 
 keyArgs('value1' , 'value2' , 'arg1' , 'arg2' , 'arg3' , key1='valueKey1' , key2 ='valueKey2')    
+
+
+#Another sample
+
+def getUser(first_name , last_name , *args , **kwargs):
+    print(first_name)
+    print(last_name)
+    print(args)
+    print(kwargs)
+
+getUser('Sajjad' , 'Shojaei' , 'engineer' , 'artist' , 'player' , age=26 , isAdmin=True)    
