@@ -75,3 +75,12 @@ def food_menu(food):
 fruits = ["apple", "banana", "cherry"]
 
 food_menu(fruits)
+
+# Return Values
+# To let a function return a value, use the return statement:
+
+def sum(a , b):
+   return a  *  b
+
+result = sum(14 , 14)
+print(result)
