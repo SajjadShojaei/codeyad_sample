@@ -29,3 +29,15 @@ def hello2(fname , lname , *args):
     print(args)
 
 hello2('sajjad' , 'shojaei' , 'ali' , 'reza' , 'amir' , 'mahdi') # get error if you calling function like this --> hello2()  ~ 2 arguments is required
+
+# Arbitrary Keyword Arguments, **kwargs
+# If you do not know how many keyword arguments that will be passed into your function,
+# add two asterisk: ** before the parameter name in the function definition.
+
+def keyArgs(value1 , value2 , *args , **kwargs):
+    print(value1)
+    print(value2)
+    print(args)
+    print(kwargs)
+
+keyArgs('value1' , 'value2' , 'arg1' , 'arg2' , 'arg3' , key1='valueKey1' , key2 ='valueKey2')    
