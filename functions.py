@@ -13,3 +13,12 @@ def sum(a , b):
     print(a + b)
 
 sum(2 , 4) # => 6   
+
+# Arbitrary Arguments, *args
+# If you do not know how many arguments that will be passed into your function,
+# add a * before the parameter name in the function definition.
+def hello(*names):
+    for name in names:
+        print(f"hello {name}")
+
+hello('ali' , 'sajjad' , 'karim' , 'vahid' , 'majid')        
