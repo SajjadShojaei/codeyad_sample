@@ -6,4 +6,10 @@
 def welcomeMessage():
     print("Hello, My name is Sajji and i hope enjoy my first function in python")
 
-welcomeMessage()    
+welcomeMessage()
+
+
+def sum(a , b):
+    print(a + b)
+
+sum(2 , 4) # => 6   
