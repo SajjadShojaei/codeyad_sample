@@ -21,4 +21,11 @@ def hello(*names):
     for name in names:
         print(f"hello {name}")
 
-hello('ali' , 'sajjad' , 'karim' , 'vahid' , 'majid')        
+hello('ali' , 'sajjad' , 'karim' , 'vahid' , 'majid') # no error if you calling function like this --> hello()
+
+def hello2(fname , lname , *args):
+    print(fname)
+    print(lname)
+    print(args)
+
+hello2('sajjad' , 'shojaei' , 'ali' , 'reza' , 'amir' , 'mahdi') # get error if you calling function like this --> hello2()  ~ 2 arguments is required
