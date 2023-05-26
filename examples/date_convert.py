@@ -7,7 +7,7 @@ def changeYears(day , mounth , year):
     else:
            myear = year + 621
 
-    print(f"You born in {myear} years.")   
+    print(f"You born in {myear}")   
      
 while True:
     day = int(input("enter days of your birthday: "))
