@@ -13,5 +13,7 @@ def checkUpsAndLows(name):
     print(f"upper cases: {ups}")                
     print(f"upper cases: {lows}")
 
-name = input("enter your name:")
-checkUpsAndLows(name)                    
+# don't stop app
+while True:
+    name = input("enter your name:")
+    checkUpsAndLows(name)                    
