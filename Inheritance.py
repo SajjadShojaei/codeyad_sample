@@ -20,7 +20,12 @@ class Student(Person):   #Child
         super().__init__(firstname , lastname)             #Python also has a super() function that will make the child class inherit all the methods and properties from its parent:
         self.age = age
 
+    def printAge(self):
+        print(f"The age of {self.firstname} is {self.age}")    
+
 s1 = Student("Elena" , "Shojaei" , 6)
 s1.printFullName()
 
-print(s1.age)
+# print(s1.age)
+
+s1.printAge()
