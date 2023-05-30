@@ -17,7 +17,7 @@ class Student(Person):   #Child
     
     def __init__(self, firstname, lastname , age):
         # Person.__init__(self ,firstname, lastname)
-        super().__init__(firstname , lastname)
+        super().__init__(firstname , lastname)             #Python also has a super() function that will make the child class inherit all the methods and properties from its parent:
         self.age = age
 
 s1 = Student("Elena" , "Shojaei" , 6)
