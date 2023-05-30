@@ -16,7 +16,8 @@ class Person:  #Parent
 class Student(Person):   #Child
     
     def __init__(self, firstname, lastname , age):
-        Person.__init__(self ,firstname, lastname)
+        # Person.__init__(self ,firstname, lastname)
+        super().__init__(firstname , lastname)
         self.age = age
 
 s1 = Student("Elena" , "Shojaei" , 6)
